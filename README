@@ -1,0 +1,12 @@
+Radio Buttons
+This is a small class that creates restyled radio buttons. The class returns a RadioButtons object which is a function pointer that you pass a data structure (defined later), and it returns a jQuery object of the radio buttons.
+
+You can use the style sheet given or implement your own.
+
+The data structure is of the form:
+
+var data = 
+[
+	{text: "text1", value: value1},
+	{text: "text2", value: value2}
+];

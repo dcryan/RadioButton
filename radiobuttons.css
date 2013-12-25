@@ -1,0 +1,21 @@
+label {
+	border: 1px solid transparent;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	margin: 0 10px;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #d3d3d3;
+}
+
+input[type=radio] {
+	display: none;
+}
+
+input[type=radio]:checked + label {
+	border: 1px solid black;
+	box-shadow: 0px 0px 5px #333333;
+	color: #333333;
+}

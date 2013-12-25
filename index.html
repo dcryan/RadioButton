@@ -1,0 +1,16 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="radiobuttons.js"></script>
+	<link href="radiobuttons.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="radioButton-container"/>
+	<script type="text/javascript">
+		var data = [{text: 'hey', value: 0},{text: 'hi', value: 1},{text: 'yo', value: 5}];
+		var rbObject = RadioButtons();
+
+		$('#radioButton-container').append( rbObject(data) );
+	</script>
+</body>
+</html>
